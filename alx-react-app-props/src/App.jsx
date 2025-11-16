@@ -7,17 +7,18 @@ import ProfilePage from "./ProfilePage";
 import UserContext from "./UserContext";
 
 function App() {
-  const userData = { name: "Jane Doe", email: "jane.doe@example.com" };
+  const userData = {
+    name: "John Doe",
+    age: 25,
+    bio: "A traveler who loves exploring new cities.",
+    email: "jane.doe@example.com"
+  };
 
   return (
     <UserContext.Provider value={userData}>
       <Header />
       <MainContent />
-      <UserProfile
-        name="John Doe"
-        age={25}
-        bio="A traveler who loves exploring new cities."
-      />
+      <UserProfile />
       <Counter />
       <ProfilePage />
       <Footer />
