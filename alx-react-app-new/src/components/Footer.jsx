@@ -2,14 +2,14 @@ function Footer() {
   return (
     <footer
       style={{
-        backgroundColor: '#222',
+        backgroundColor: 'navy',
         color: 'white',
         textAlign: 'center',
-        padding: '15px',
-        marginTop: '30px'
+        padding: '10px',
+        marginTop: '20px'
       }}
     >
-      <p>© 2025 My React Project</p>
+      <p>© 2025 My Favorite Cities</p>
     </footer>
   );
 }
